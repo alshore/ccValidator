@@ -21,7 +21,7 @@ public class ccValidator extends JFrame{
         setVisible(true);
         setSize(300, 150);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        String ccNumber = entryField.getText();
+        String ccNumber = entryField.getText(); 
 
         exitButton.addActionListener(new ActionListener() {
             @Override
